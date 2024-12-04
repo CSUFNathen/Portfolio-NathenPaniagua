@@ -1,0 +1,116 @@
+:root {
+  --background-color: #fff; /* The Website Background Color */
+  --btn-color: #0987f2; /* Button Color */
+  --btn-text-color: #fff; /* Button Text Color */
+  --project-card-bg: #ffffff00; /* Project List Background Color */
+  --text-color: #222; /* Websites Text Color */
+  --form-text-color: #555; 
+  --footer-text-color: #888; 
+}
+
+[data-theme='dark'] {
+  --background-color: #222; /* The Website Background Color */
+  --btn-color: #fff; /* Button Color */
+  --btn-text-color: #222; /* Button Text Color */
+  --project-card-bg: #fff; /* Project List Background Color */
+  --text-color: #fff; /* Websites Text Color */
+  --form-text-color: #fff; 
+  --footer-text-color: #bbb; 
+}
+
+body {
+  background-color: var(--background-color);
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 60px;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+/* Changes The Font Color, Changed The Spacing Between All Of The Texts */
+h1,h2,h3,p {
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
+
+/* Changes The Fonts Of The Text */
+h2,h3,p {
+  font-family: 'Roboto Mono', monospace;
+}
+
+/* Changes The Text To Uppercase*/
+h1,h2 {
+  text-transform: uppercase;
+}
+
+/* Changes The Font Size */
+h2,h3 {
+  font-size: 20px;
+}
+
+
+/* Changes The Fonts Of The Text, Changes Size Of The Text */
+h1 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 32px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.sectionTitle {
+  margin-bottom: 30px;
+}
+
+.hover {
+  cursor: pointer;  
+}
+
+.iconRow{
+  flex-direction: row;
+}
+
+.schoolInfo {
+  font-size: 13px;
+}
+
+@media (min-width: 800px) {
+  #root {
+      gap: 100px;
+  }
+
+  h1 {
+      font-size: 40px;
+  }
+  h2, h3 {
+      font-size: 24px;
+  }
+
+  p {
+      font-size: 20px;
+  }
+  .sectionTitle {
+      margin-bottom: 60px;
+  }
+}
+
+@media (min-width: 1400px) {
+  #root {
+      gap: 200px;
+  }
+
+  h1 {
+      font-size: 48px;
+  }
+
+  .sectionTitle {
+      margin-bottom: 75px;
+  }
+}
