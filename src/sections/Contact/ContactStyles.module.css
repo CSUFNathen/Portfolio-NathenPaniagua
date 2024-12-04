@@ -69,8 +69,19 @@ input[type='submit']:active {
     }
 }
 
+@media (max-width: 800px) {
+    textarea, input:not([type='submit']) {
+        width: 300px;
+        font-size: 15px;
+    }
+    
+    form {
+        gap: 40px;
+    }
+}
+
 @media (min-width: 1400px) {
     textarea, input:not([type='submit']) {
-        width: 600px;
+        width: 500px;
     }
 }

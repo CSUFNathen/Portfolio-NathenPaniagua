@@ -1,43 +1,43 @@
-import styles from './SkillsStyles.module.css'
-import CheckMarkIcon from '../../assets/tick-dark.png'
-import SkillList from '../../common/SkillList'
+import styles from './SkillsStyles.module.css';
+import tickDark from '../../assets/tick-dark.png';
+import tickLight from '../../assets/tick-light.png';
+import SkillList from '../../common/SkillList';
+import { useTheme } from '../../common/ThemeContext';
 
 function Skills() {
+  const { theme } = useTheme(); // Access the current theme
+
+  // Choose the icon based on the theme
+  const CheckMarkIcon = theme === 'light' ? tickLight : tickDark;
+
   return (
     <section id='skills' className={styles.container}>
-        <h1 className="sectionTitle">Skills</h1>
-        <div className={styles.skillList}>
+      <h1 className="sectionTitle">Skills</h1>
+      <div className={styles.skillList}>
+        <SkillList 
+          src={CheckMarkIcon} 
+          skill="C++" 
+        /> 
+      </div>
 
-            <SkillList 
-            src={CheckMarkIcon} 
-            skill="C++"
-            /> 
+      {/* Line Breaker */}
+      <hr /> 
 
-        </div>
+      <div className={styles.skillList}>
+        <SkillList 
+          src={CheckMarkIcon} 
+          skill="HTML" 
+        />
+        <SkillList 
+          src={CheckMarkIcon} 
+          skill="CSS" 
+        />
+      </div>
 
-        {/* Line Braker */}
-        <hr /> 
-        
-
-        <div className={styles.skillList}>
-
-            <SkillList 
-            src={CheckMarkIcon} 
-            skill="HTML"
-            />
-
-            <SkillList 
-            src={CheckMarkIcon} 
-            skill="CSS" 
-            />
-
-        </div>
-
-        {/* Line Braker */}
-        <hr />
-
+      {/* Line Breaker */}
+      <hr />
     </section>
-  )
+  );
 }
 
-export default Skills
+export default Skills;
