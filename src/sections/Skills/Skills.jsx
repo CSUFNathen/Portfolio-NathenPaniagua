@@ -1,14 +1,13 @@
 import styles from './SkillsStyles.module.css';
-import tickDark from '../../assets/tick-dark.png';
-import tickLight from '../../assets/tick-light.png';
+import checkMarkDark from '../../assets/tick-dark.png';
+import checkMarkLight from '../../assets/tick-light.png';
 import SkillList from '../../common/SkillList';
 import { useTheme } from '../../common/ThemeContext';
 
 function Skills() {
-  const { theme } = useTheme(); // Access the current theme
+  const { theme } = useTheme();
 
-  // Choose the icon based on the theme
-  const CheckMarkIcon = theme === 'light' ? tickLight : tickDark;
+  const CheckMarkIcon = theme === 'light' ? checkMarkLight : checkMarkDark;
 
   return (
     <section id='skills' className={styles.container}>
