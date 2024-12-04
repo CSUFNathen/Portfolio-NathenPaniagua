@@ -10,7 +10,7 @@ This project involves creating a personal portfolio website to showcase informat
 - Major
 - Resume
 - Contact form
-- - Projects
+- Projects
 - GitHub Profile Link
 - Twitter Profile Link
 - Linkedin Profile Link
