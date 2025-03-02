@@ -10,7 +10,7 @@ import linkedinLight from '../../assets/linkedin-Light.png' //Icon image holder 
 import linkedinDark from '../../assets/linkedin-Dark.png' //Icon image holder for Linkedin (Dark Version)
 import instagramLight from '../../assets/instagram-Dark.png' // Icon image holder for dark and light mode (Light Version)
 import instagramDark from '../../assets/instagram-Light.png' // Icon image holder for dark and light mode (Dark Version)
-import CV from '../../assets/Reume-NathenPaniagua.pdf' // Resume Holder
+import CV from '../../assets/ResumeNathenPaniagua.pdf' // Resume Holder
 import { useTheme } from '../../common/ThemeContext'
 
 

@@ -3,7 +3,7 @@ import styles from './FooterStyles.module.css'
 function Footer() {
   return (
     <section id='footer' className={styles.container}>
-        <p> &copy; 2024 Nathen Paniagua. <br />
+        <p> &copy; 2025 Nathen Paniagua. <br />
         All rights reserved.</p>
     </section>
   )
