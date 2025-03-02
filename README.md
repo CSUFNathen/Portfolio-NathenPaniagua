@@ -56,4 +56,4 @@ This project involves creating a personal portfolio website to showcase informat
 
 ## Final Thoughts
 
-Creating this website was a rewarding experience that helped me understand the process of create website and how it is done. I gained valuable insights into how complex and tedious web development is and the challenges that come with it.
+Creating this website was a rewarding experience that helped me understand the process of creating a website and how it is developed. I gained valuable insights into how complex and tedious web development is and the challenges that come with it.
