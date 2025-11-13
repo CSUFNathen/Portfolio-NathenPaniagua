@@ -73,7 +73,7 @@ function Hero() {
 
       </div>
       <p className={styles.description}>
-        With a passion in developing and creating modern Apps and Software.
+       Developing modern Apps and Software with a focus on Data Science implementation, transforming raw data into smart features and predictive models.
       </p>
 
       <a href={CV} download className={styles.resume}>
