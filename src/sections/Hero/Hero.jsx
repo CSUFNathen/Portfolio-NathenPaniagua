@@ -76,7 +76,7 @@ function Hero() {
        Passionate in developing modern Apps and Software with a focus on Data Science implementation, transforming raw data into smart features and predictive models.
       </p>
 
-      <a href={CV} download className={styles.resume}>
+      <a href={CV} download="NathenPaniaguaResume" className={styles.resume}>
         <button className="hover">Resume</button>
       </a>
 
