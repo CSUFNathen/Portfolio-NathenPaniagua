@@ -25,10 +25,14 @@ function Skills() {
           src={CheckMarkIcon} 
           skill="Swift" 
         /> 
-        <SkillList 
-          src={CheckMarkIcon} 
-          skill="JavaScript" 
-        /> 
+        <SkillList
+          src={CheckMarkIcon}
+          skill="JavaScript"
+        />
+        <SkillList
+          src={CheckMarkIcon}
+          skill="R"
+        />
       </div>
 
       {/* Line Breaker */}
@@ -43,14 +47,18 @@ function Skills() {
           src={CheckMarkIcon} 
           skill="CSS" 
         />
-        <SkillList 
-          src={CheckMarkIcon} 
-          skill="Tailwind CSS" 
-        /> 
-        <SkillList 
-          src={CheckMarkIcon} 
-          skill="Node.js" 
-        /> 
+        <SkillList
+          src={CheckMarkIcon}
+          skill="Tailwind CSS"
+        />
+        <SkillList
+          src={CheckMarkIcon}
+          skill="Node.js"
+        />
+        <SkillList
+          src={CheckMarkIcon}
+          skill="React"
+        />
       </div>
 
       {/* Line Breaker */}

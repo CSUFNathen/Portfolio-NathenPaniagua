@@ -4,8 +4,10 @@
   text-align: center;
 
   img {
-    max-width: 170px;
-    max-height: 170px;
+    width: 170px;
+    height: 170px;
+    object-fit: contain;
+    object-position: center;
     align-self: center;
     background-color: var(--project-card-bg);
     border-radius: 20px;
@@ -16,7 +18,8 @@
 
   a {
     display: block;
-    width: fit-content;
+    width: 100%;
+    max-width: 340px;
     text-decoration: none;
     color: #222;
     transition: transform 200ms ease-in-out;
@@ -31,8 +34,7 @@
   }
 
   p {
-    max-width: 385px; 
-    word-wrap: break-word; 
+    word-wrap: break-word;
     overflow-wrap: break-word;
     padding-top: 20px;
   }

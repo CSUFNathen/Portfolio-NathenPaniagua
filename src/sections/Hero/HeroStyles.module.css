@@ -7,9 +7,6 @@
     height: 100dvh;
     min-height: 500px;
 
-    .hero {
-        max-width: 200px;
-    }
 
     span {
         gap: 25px; 
@@ -55,8 +52,10 @@
 
 .colorModeContainer {
     position: relative;
-    border-radius: 50%; 
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25); 
+    border-radius: 50%;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
+    width: 170px;
+    max-width: 170px;
 }
 
 .colorMode {
@@ -107,19 +106,18 @@
         flex-direction: row-reverse;
         align-items: center;
         justify-content: space-evenly;
-        .hero {
-            max-width: 350px;
-            width: 350px;
-        }
+    }
+
+    .colorModeContainer {
+        width: 260px;
+        max-width: 260px;
     }
 }
 
 @media (min-width: 1400px) {
-    .container {
-        .hero {
-            max-width: 400px;
-            width: 400px;
-        }
+    .colorModeContainer {
+        width: 300px;
+        max-width: 300px;
     }
 }
 
